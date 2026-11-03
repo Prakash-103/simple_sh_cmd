@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────
+#  SHOW COMMANDS LIST  —  sample_commands.txt
+#  One command per line.
+#  Lines starting with # are ignored (comments).
+# ─────────────────────────────────────────────
+
+# ── Device Info ──────────────────────────────
+sh version
+sh inventory
+sh clock
+
+# ── Interfaces ───────────────────────────────
+sh ip int brief
+sh interfaces status
+sh interfaces
+
+# ── Routing ──────────────────────────────────
+sh ip route
+sh ip route summary
+sh ip protocols
+sh ip ospf neighbor
+sh ip bgp summary
+
+# ── Switching ────────────────────────────────
+sh vlan brief
+sh spanning-tree summary
+sh mac address-table
+
+# ── Device Health ────────────────────────────
+sh processes cpu sorted
+sh processes memory sorted
+sh environment all
+
+# ── Logs & Config ────────────────────────────
+sh logging
+sh running-config
+

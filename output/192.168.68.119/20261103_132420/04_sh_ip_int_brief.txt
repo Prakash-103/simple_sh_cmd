@@ -1,0 +1,26 @@
+Device    : 192.168.68.119
+Command   : sh ip int brief
+Timestamp : 2026-11-03 13:24:22.059364
+Status    : SUCCESS
+============================================================
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.68.119  YES DHCP   up                    up      
+GigabitEthernet2       unassigned      YES unset  up                    up      
+GigabitEthernet3       unassigned      YES unset  up                    up      
+GigabitEthernet4       unassigned      YES unset  up                    up      
+GigabitEthernet5       unassigned      YES unset  up                    up      
+GigabitEthernet6       unassigned      YES unset  up                    up      
+GigabitEthernet7       unassigned      YES unset  up                    up      
+GigabitEthernet8       unassigned      YES unset  up                    up      
+GigabitEthernet9       unassigned      YES unset  up                    up      
+GigabitEthernet10      unassigned      YES unset  up                    up      
+GigabitEthernet11      unassigned      YES unset  up                    up      
+GigabitEthernet12      unassigned      YES unset  up                    up      
+GigabitEthernet13      unassigned      YES unset  up                    up      
+GigabitEthernet14      unassigned      YES unset  up                    up      
+GigabitEthernet15      unassigned      YES unset  up                    up      
+GigabitEthernet16      unassigned      YES unset  up                    up      
+GigabitEthernet17      unassigned      YES unset  up                    up      
+GigabitEthernet18      unassigned      YES unset  up                    up      
+GigabitEthernet19      unassigned      YES unset  up                    up      
+GigabitEthernet20      unassigned      YES unset  up                    up

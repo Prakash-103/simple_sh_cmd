@@ -1,0 +1,12 @@
+Device    : 192.168.68.119
+Command   : sh vlan brief
+Timestamp : 2026-11-03 13:24:23.933423
+Status    : SUCCESS
+============================================================
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    
+1002 fddi-default                     act/unsup 
+1003 token-ring-default               act/unsup 
+1004 fddinet-default                  act/unsup 
+1005 trnet-default                    act/unsup

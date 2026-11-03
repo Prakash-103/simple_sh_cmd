@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────
+#  DEVICE IP LIST  —  sample_devices.txt
+#  One IP address per line.
+#  Lines starting with # are ignored (comments).
+# ─────────────────────────────────────────────
+
+# Core Routers
+192.168.68.119
+192.168.68.120
+
+# Distribution Switches
+10.10.10.1
+10.10.10.2
+
+# Access Switches
+172.16.0.1
+172.16.0.2
+172.16.0.3
+

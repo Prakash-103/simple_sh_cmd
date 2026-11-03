@@ -1,0 +1,68 @@
+2026-11-03 12:34:39,236 - ERROR - Connection failure: 192.168.68.119
+Traceback (most recent call last):
+  File "d:\practice\simple_sh_cmd\fetch_cmds.py", line 108, in connect_device
+    connection = ConnectHandler(**device)
+  File "C:\Users\DELL LATITUDE 7400\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\netmiko\ssh_dispatcher.py", line 516, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+TypeError: BaseConnection.__init__() got an unexpected keyword argument 'name'
+2026-11-03 12:38:11,671 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-03 12:38:12,204 - INFO - Authentication (password) successful!
+2026-11-03 12:38:14,052 - INFO - Command succeeded: 192.168.68.119 | sh run
+2026-11-03 12:40:53,013 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-03 12:40:53,549 - INFO - Authentication (password) successful!
+2026-11-03 12:40:58,329 - INFO - Command succeeded: 192.168.68.119 | sh ip int brief
+2026-11-03 12:40:58,881 - INFO - Command succeeded: 192.168.68.119 | sh version
+2026-11-03 12:40:59,427 - INFO - Command succeeded: 192.168.68.119 | shhh ip
+2026-11-03 12:56:10,819 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-03 12:56:11,394 - INFO - Authentication (password) successful!
+2026-11-03 12:56:12,855 - INFO - Command succeeded: 192.168.68.119 | sh ip int brief
+2026-11-03 12:56:13,431 - INFO - Command succeeded: 192.168.68.119 | sh version
+2026-11-03 12:56:13,980 - WARNING - Command warning: 192.168.68.119 | shhh ip | % Invalid input detected at '^' marker.
+2026-11-03 13:06:11,167 INFO Connected (version 2.0, client Cisco-1.25)
+2026-11-03 13:06:11,881 INFO Authentication (password) successful!
+2026-11-03 13:06:13,441 INFO OK: 192.168.68.119 | sh version
+2026-11-03 13:06:14,021 INFO OK: 192.168.68.119 | sh inventory
+2026-11-03 13:06:14,569 INFO OK: 192.168.68.119 | sh clock
+2026-11-03 13:06:15,129 INFO OK: 192.168.68.119 | sh ip int brief
+2026-11-03 13:06:15,685 INFO OK: 192.168.68.119 | sh interfaces status
+2026-11-03 13:06:16,376 INFO OK: 192.168.68.119 | sh interfaces
+2026-11-03 13:06:16,956 INFO OK: 192.168.68.119 | sh ip route
+2026-11-03 13:06:17,539 INFO OK: 192.168.68.119 | sh ip route summary
+2026-11-03 13:06:18,120 INFO OK: 192.168.68.119 | sh ip protocols
+2026-11-03 13:06:18,794 INFO OK: 192.168.68.119 | sh ip ospf neighbor
+2026-11-03 13:06:19,385 INFO OK: 192.168.68.119 | sh ip bgp summary
+2026-11-03 13:06:20,044 INFO OK: 192.168.68.119 | sh vlan brief
+2026-11-03 13:06:20,645 INFO OK: 192.168.68.119 | sh spanning-tree summary
+2026-11-03 13:06:21,355 INFO OK: 192.168.68.119 | sh mac address-table
+2026-11-03 13:06:22,225 INFO OK: 192.168.68.119 | sh processes cpu sorted
+2026-11-03 13:06:23,064 INFO OK: 192.168.68.119 | sh processes memory sorted
+2026-11-03 13:06:23,635 WARNING 192.168.68.119 | sh environment all | % Invalid input detected at '^' marker.
+2026-11-03 13:06:24,348 INFO OK: 192.168.68.119 | sh logging
+2026-11-03 13:06:25,204 INFO OK: 192.168.68.119 | sh running-config
+2026-11-03 13:24:20,168 INFO Connected (version 2.0, client Cisco-1.25)
+2026-11-03 13:24:20,692 INFO Authentication (password) successful!
+2026-11-03 13:24:21,447 INFO OK: 192.168.68.119 | sh version
+2026-11-03 13:24:21,651 INFO OK: 192.168.68.119 | sh inventory
+2026-11-03 13:24:21,856 INFO OK: 192.168.68.119 | sh clock
+2026-11-03 13:24:22,060 INFO OK: 192.168.68.119 | sh ip int brief
+2026-11-03 13:24:22,265 INFO OK: 192.168.68.119 | sh interfaces status
+2026-11-03 13:24:22,710 INFO OK: 192.168.68.119 | sh interfaces
+2026-11-03 13:24:22,914 INFO OK: 192.168.68.119 | sh ip route
+2026-11-03 13:24:23,118 INFO OK: 192.168.68.119 | sh ip route summary
+2026-11-03 13:24:23,323 INFO OK: 192.168.68.119 | sh ip protocols
+2026-11-03 13:24:23,526 INFO OK: 192.168.68.119 | sh ip ospf neighbor
+2026-11-03 13:24:23,730 INFO OK: 192.168.68.119 | sh ip bgp summary
+2026-11-03 13:24:23,934 INFO OK: 192.168.68.119 | sh vlan brief
+2026-11-03 13:24:24,138 INFO OK: 192.168.68.119 | sh spanning-tree summary
+2026-11-03 13:24:24,344 INFO OK: 192.168.68.119 | sh mac address-table
+2026-11-03 13:24:24,773 INFO OK: 192.168.68.119 | sh processes cpu sorted
+2026-11-03 13:24:25,215 INFO OK: 192.168.68.119 | sh processes memory sorted
+2026-11-03 13:24:25,417 WARNING 192.168.68.119 | sh environment all | ^
+2026-11-03 13:24:25,646 INFO OK: 192.168.68.119 | sh logging
+2026-11-03 13:24:26,056 INFO OK: 192.168.68.119 | sh running-config
+2026-11-03 13:24:46,061 ERROR Connection failed: 192.168.68.120 — timed out
+2026-11-03 13:25:06,072 ERROR Connection failed: 10.10.10.1 — timed out
+2026-11-03 13:25:26,075 ERROR Connection failed: 10.10.10.2 — timed out
+2026-11-03 13:25:46,092 ERROR Connection failed: 172.16.0.1 — timed out
+2026-11-03 13:26:06,097 ERROR Connection failed: 172.16.0.2 — timed out
+2026-11-03 13:26:26,106 ERROR Connection failed: 172.16.0.3 — timed out

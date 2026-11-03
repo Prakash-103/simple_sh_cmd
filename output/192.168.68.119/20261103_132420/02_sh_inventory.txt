@@ -1,0 +1,13 @@
+Device    : 192.168.68.119
+Command   : sh inventory
+Timestamp : 2026-11-03 13:24:21.650740
+Status    : SUCCESS
+============================================================
+NAME: "Chassis", DESCR: "Cisco Catalyst 8000V Edge Chassis"
+PID: C8000V            , VID: V00  , SN: 9ZHT9FY0F7G
+
+NAME: "module R0", DESCR: "Cisco Catalyst 8000V Edge Route Processor"
+PID: C8000V            , VID: V00  , SN: JAB1303001C
+
+NAME: "module F0", DESCR: "Cisco Catalyst 8000V Edge Embedded Services Processor"
+PID: C8000V            , VID:      , SN:

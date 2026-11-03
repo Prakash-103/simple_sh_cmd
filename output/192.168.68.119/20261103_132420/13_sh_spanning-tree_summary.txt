@@ -1,0 +1,11 @@
+Device    : 192.168.68.119
+Command   : sh spanning-tree summary
+Timestamp : 2026-11-03 13:24:24.138040
+Status    : SUCCESS
+============================================================
+Switch is in rapid-pvst mode
+Root bridge for: none
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+Total                        0         0        0          0          0
