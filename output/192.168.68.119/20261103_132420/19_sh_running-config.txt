@@ -34,7 +34,7 @@ no aaa new-model
 !
 !
 !
-ip domain name zenquix.com
+ip domain name example.com
 !
 !
 !
